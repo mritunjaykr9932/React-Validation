@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins&display=swap');
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

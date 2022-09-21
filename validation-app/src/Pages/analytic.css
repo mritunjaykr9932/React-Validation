@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins&display=swap');
+    
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.form-analytic{
+    height: 90%;
+    /* border-radius: 5px; */
+}
+.analytic-container{
+    background-color: #F9FAFB ;
+    width: 60%;
+    height: 60%;
+    /* margin-top: auto; */
+    /* overflow:scroll; */
+    margin: auto;
+    border-radius: 10px;
+    /* border: 10px solid red; */
+    margin-top: 4rem;
+
+}
+.analytic-main{
+    margin: auto;
+    /* border: 1px solid red; */
+    width: 80%;
+    /* margin: 1% 10%; */
+    padding: 20px 10px;
+    height: 99%;
+    overflow-y: scroll;
+    /* border-radius: 10px; */
+    
+}
+
+.analytic-form {
+    display: grid;
+    grid-template: 80px 80px / 1fr 1fr;
+    gap: .1rem;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 10px;
+    /* margin-bottom: 25px; */
+    /* border: 1px solid green; */
+}
+.analytic-input{
+    /* border: 2px solid black; */
+    padding: 5px 8px ;
+}
+.analytic-input input{
+    margin-top: 5px;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    color: rgb(97, 96, 96);
+}
+.analytic-card{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    /* border: 2px solid yellowgreen; */
+}
+.analytic-card h3{
+    font-weight: 300;
+}
+.analytic-card label{
+    color: gray;
+}
+/* .modal{
+ width: 50%;   
+} */
+.modal-body{
+    width: 50%;
+    margin: auto;
+}
+.user-info-modal{
+    
+}
